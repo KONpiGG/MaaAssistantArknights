@@ -11878,8 +11878,10 @@
             245,
             144
         ],
+        "sub": [
+            "Roguelike@StrategyChange"
+        ],
         "next": [
-            "Roguelike@StrategyChange",
             "Roguelike@Stages#next"
         ]
     },
@@ -12890,10 +12892,6 @@
             0,
             186,
             129
-        ],
-        "next": [
-            "Roguelike@NextLevel",
-            "Roguelike@Stages#next"
         ]
     },
     "Roguelike@StrategyChange_mode0": {
@@ -13544,6 +13542,9 @@
         ],
         "templThreshold": 0.95,
         "postDelay": 1000,
+        "sub": [
+            "Mizuki@Roguelike@StrategyChange"
+        ],
         "next": [
             "Mizuki@Roguelike@StageEncounterEnter",
             "Mizuki@Roguelike@Stages#next",
